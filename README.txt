@@ -1,6 +1,1 @@
-Introduction
-============
-
-
-
-This product may contain traces of nuts.
+SINAnet georss package to retrieve georss resources from a geocatalog
