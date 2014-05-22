@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="sinanet.georss">
+<head>
+        <style type="text/css" media="screen"
+        tal:content="string: @import url(style.css);">
+        </style>
+</head>
+
+<body>
+<tal:fill metal:fill-slot="main">
+ <span tal:replace="structure view/getrss" />
+</tal:fill>
+</body>
+</html>
